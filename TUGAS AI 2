@@ -1,0 +1,108 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "75a9d9cb",
+   "metadata": {},
+   "source": [
+    "# TUGAS 2 AI\n",
+    "## Nama : Sri Adelia\n",
+    "## NIM : H061251081\n",
+    "## Kelas : B"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "1bbf2e52",
+   "metadata": {},
+   "source": [
+    "## 1. Laporan Evaluasi Prospek Mineral: Anomali IP pada Target Porfir\n",
+    "\n",
+    "**Batas Zona Cebakan dan Rekomendasi Pengeboran**\n",
+    "Berdasarkan data 2D Induced Polarization (IP), teridentifikasi zona anomali dengan nilai chargeability tinggi (>30 mV/V) yang berhimpitan dengan resistivitas sedang-tinggi (300-800 $\\Omega m$) pada rentang kedalaman 50–200 meter. Kombinasi parameter fisik ini merupakan indikator kuat keberadaan zona alterasi hidrotermal bersilisifikasi yang mengandung mineralisasi sulfida. \n",
+    "\n",
+    "**Mekanisme Polarisasi dan Sifat Fisik**\n",
+    "Nilai chargeability yang tinggi menandakan kemampuan batuan untuk menyimpan arus listrik sementara, yang secara langsung berkaitan dengan mekanisme polarisasi antar-muka (*overvoltage*) pada partikel mineral logam terdiseminasi. Dalam konteks endapan porfir, butiran mineral sulfida seperti pirit atau kalkopirit yang tersebar di dalam matriks batuan bertindak sebagai kapasitor kecil saat dialiri arus bolak-balik, menghasilkan efek polarisasi terinduksi yang terekam secara anomali pada kedalaman tersebut.\n",
+    "\n",
+    "**Rekomendasi Tindak Lanjut**\n",
+    "*   **Titik Koordinat Bor (Coring):** Diprioritaskan menembus pusat anomali chargeability tertinggi (>30 mV/V) pada interval kedalaman target 50–200 meter untuk memotong zona mineralisasi utama.\n",
+    "*   **Pengujian Lanjutan:** Direkomendasikan untuk melakukan pengujian sampel inti bor (*core sample*) melalui analisis petrografi untuk mengidentifikasi ubahan mineralogi, serta assay geokimia untuk memastikan kadar (*grade*) unsur tembaga (Cu) dan emas (Au).\n",
+    "\n",
+    "---\n",
+    "\n",
+    "## 2. Ringkasan Penilaian Risiko Guncangan Gempa: Mikrozonasi HVSR\n",
+    "\n",
+    "**Analisis Kurva Rasio Spektral dan Indeks Kerentanan**\n",
+    "Berdasarkan pengolahan data mikrotremor 3-komponen, diperoleh nilai frekuensi dominan $f_0 = 1.2\\text{ Hz}$ dan faktor amplifikasi $A_0 = 4.5$. Nilai indeks kerentanan seismik ($K_g$) tapak ini dihitung menggunakan persamaan:\n",
+    "\n",
+    "$$K_g = \\frac{A_0^2}{f_0}$$\n",
+    "$$K_g = \\frac{4.5^2}{1.2} = \\frac{20.25}{1.2} = 16.875$$\n",
+    "\n",
+    "**Implikasi Ketebalan Sedimen**\n",
+    "Nilai frekuensi dominan yang rendah ($1.2\\text{ Hz}$) secara logis mengindikasikan keberadaan lapisan sedimen lunak (endapan kuarter) yang sangat tebal di bawah kawasan permukiman tersebut. Ketebalan lapisan tanah lunak ini memicu resonansi gelombang seismik yang berujung pada pembesaran guncangan (*amplification*) permukaan, terefleksi dari nilai $A_0$ yang cukup tinggi. Angka $K_g$ sebesar 16.875 menunjukkan tingkat kerentanan tapak yang tinggi terhadap kerusakan struktural saat terjadi gempa bumi.\n",
+    "\n",
+    "**Rekomendasi Tindak Lanjut**\n",
+    "Untuk memvalidasi kekakuan lapisan tanah dasar, disarankan melakukan pengukuran kecepatan gelombang geser $V_{s30}$ menggunakan metode survei MASW (*Multichannel Analysis of Surface Waves*).\n",
+    "\n",
+    "---\n",
+    "\n",
+    "## 3. Ulasan Ilmiah: Pendeteksian Dapur Magma Berdasarkan Data MT\n",
+    "\n",
+    "**Estimasi Kedalaman, Geometri, dan Volume Zona Konduktif**\n",
+    "Inversi Magnetotellurik (MT) 2D/3D pada kompleks gunung api aktif mengidentifikasi anomali konduktif ekstrem dengan nilai resistivitas kurang dari 5 $\\Omega m$. Anomali ini terpusat pada kedalaman 7 hingga 12 km di bawah puncak gunung api. Bentuk geometri konduktor ini mengindikasikan reservoir magmatik atau sistem hidrotermal dalam, dengan volume intrusi yang mencakup keseluruhan area anomali konduktif tersebut.\n",
+    "\n",
+    "**Sifat Elektromagnetik dan Keberadaan Panas Bumi**\n",
+    "Secara fisika batuan, penurunan nilai resistivitas yang sangat ekstrem (< 5 $\\Omega m$) pada kedalaman tersebut disebabkan oleh keberadaan lelehan silikat jenuh fluida (*partial melt*) dan fluida kaya ion hidrotermal pada temperatur magmatik yang sangat tinggi. Pergerakan ion dalam fase fluida dan lelehan memfasilitasi konduksi listrik yang masif, sehingga batuan yang teralterasi dan meleleh sebagian ini terekam sebagai konduktor yang kuat.\n",
+    "\n",
+    "**Rekomendasi Tindak Lanjut**\n",
+    "Lakukan komparasi spasial hasil anomali MT ini dengan data tomografi gelombang seismik. Penurunan rasio kecepatan $V_p/V_s$ pada rentang kedalaman 7–12 km akan memvalidasi secara independen keberadaan zona lelehan sebagian (*partial melting*).\n",
+    "\n",
+    "---\n",
+    "\n",
+    "## 4. Laporan Teknis Pemantauan Deformasi Permukaan (InSAR)\n",
+    "\n",
+    "**Analisis Laju Amblesan Tanah**\n",
+    "Interpretasi interferogram dinamis satelit Sentinel-1 memperlihatkan pola *fringe* melingkar konsentris di kawasan industri pesisir. Pola perubahan fase jarak pandang satelit (*Line of Sight* / LOS) ini merepresentasikan perubahan volume fisik di bawah permukaan, yang dikuantifikasi menjadi laju amblesan (*subsidence rate*) maksimum mencapai -12 cm/tahun. \n",
+    "\n",
+    "**Mekanisme Kompaksi Akuifer**\n",
+    "Laju deformasi ekstrem ini berkaitan erat dengan proses pemadatan atau kompaksi pada lapisan akuifer tertekan (*confined aquifer*). Ekstraksi air tanah yang masif dan berlebihan oleh kawasan industri menyebabkan hilangnya tekanan pori. Penurunan tekanan pori ini memaksa matriks sedimen penyusun akuifer untuk menanggung beban litostatik (*effective stress*), sehingga pori-pori batuan mengecil, lapisan menyusut, dan terwujud sebagai amblesan tanah di permukaan.\n",
+    "\n",
+    "**Saran Zonasi dan Verifikasi**\n",
+    "Pemerintah daerah harus segera menerapkan zonasi pembatasan hingga pelarangan ekstraksi air tanah dalam di pusat *fringe* deformasi. Untuk validasi akurasi data satelit, instruksikan pengukuran deformasi absolut secara langsung di lapangan menggunakan stasiun GNSS/GPS Kontinu (*CORS*).\n",
+    "\n",
+    "---\n",
+    "\n",
+    "## 5. Rekomendasi Rute Kabel Bawah Laut Berdasarkan Survei SBP\n",
+    "\n",
+    "**Morfologi Dasar Laut dan Bahaya Geologi**\n",
+    "Survei geofisika kelautan memetakan struktur dangkal dasar laut untuk rute kabel serat optik. Penetrasi gelombang akustik *Sub-Bottom Profiling* (SBP) mengidentifikasi lapisan sedimen lumpur halus (material transparan akustik) setebal 4 meter, yang ditutupi secara diskordan di atas batuan dasar (*basement*) keras (reflektor akustik kuat). Secara bersamaan, sebaran pantulan balik (*backscatter*) dari *Side Scan Sonar* secara jelas menampilkan anomali mekanis berupa bekas seretan jangkar (*anchor scars*) yang memotong lapisan sedimen permukaan.\n",
+    "\n",
+    "**Rekomendasi Kedalaman Penanaman (Burial Depth) dan RPL**\n",
+    "*   **Kedalaman Penanaman:** Kabel disarankan untuk ditanam (*trenched*) pada kedalaman 2 hingga 3 meter di dalam lapisan sedimen lumpur halus. Kedalaman ini cukup untuk melindungi kabel dari aktivitas jangkar (yang umumnya mengoyak 1-1.5 meter sedimen atas), sekaligus menghindari kesulitan teknis pemotongan batuan keras (*basement*) di kedalaman 4 meter.\n",
+    "*   **Route Position List (RPL):** Rute kabel harus didesain sedikit menyimpang (*re-routing*) dari area dengan densitas *anchor scars* tertinggi untuk menekan risiko kerusakan mekanis di masa depan.\n",
+    "\n",
+    "**Rekomendasi Tindak Lanjut**\n",
+    "Lakukan verifikasi visual dan pengambilan sampel langsung dari sedimen dasar laut menggunakan *Grab Sampler* atau inspeksi detail via kamera ROV (*Remotely Operated Vehicle*) di sepanjang rute kritis."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "bf94944e",
+   "metadata": {},
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "base",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "name": "python",
+   "version": "3.13.11"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
